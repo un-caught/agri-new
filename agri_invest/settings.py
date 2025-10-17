@@ -259,8 +259,8 @@ SOCIAL_AUTH_PIPELINE = (
 # Paystack Configuration
 PAYSTACK_SECRET_KEY = 'sk_test_fe7bf851dee22f191e4e9b5e30203636fb58beb8'  # Replace with your Paystack secret key
 PAYSTACK_PUBLIC_KEY = 'pk_test_e0945fecdba378d883c456ed97949fb8dfac93ed'  # Replace with your Paystack public key
-FRONTEND_URL = 'http://localhost:5173'  # Frontend URL for callbacks
-#FRONTEND_URL = 'https://agri-invest.onrender.com/'  # Frontend URL for callbacks
+#FRONTEND_URL = 'http://localhost:5173'  # Frontend URL for callbacks
+FRONTEND_URL = 'https://agric-investment.onrender.com/'  # Frontend URL for callbacks
 
 
 SOCIAL_AUTH_GOOGLE_OAUTH2_REDIRECT_URI = FRONTEND_URL + '/google-callback'
