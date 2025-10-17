@@ -27,8 +27,8 @@ SECRET_KEY = 'django-insecure-2%knz+0k)i9=$cm#k5(^)_b4f7^m7y-vtd3c7wl9(248_9vj15
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-#ALLOWED_HOSTS = ['agri-invest.onrender.com']
-ALLOWED_HOSTS = ['localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['agric-investment.onrender.com']
+#ALLOWED_HOSTS = ['localhost', '127.0.0.1']
 
 CSRF_TRUSTED_ORIGINS = ['http://localhost:5173', 'http://127.0.0.1:5173']
 
