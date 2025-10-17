@@ -30,7 +30,7 @@ DEBUG = True
 ALLOWED_HOSTS = ['agric-investment.onrender.com']
 #ALLOWED_HOSTS = ['localhost', '127.0.0.1']
 
-CSRF_TRUSTED_ORIGINS = ['http://localhost:5173', 'http://127.0.0.1:5173', 'agric-investment.onrender.com']
+CSRF_TRUSTED_ORIGINS = ['http://localhost:5173', 'http://127.0.0.1:5173', 'https://agric-investment.onrender.com']
 
 # Application definition
 
